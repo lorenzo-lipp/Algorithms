@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.794.0" app="classic" platform="w" id="3684ef75-8d32-4fb2-92a9-5481a487ef85"  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/apps/xsd/ggb.xsd" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<gui>
+	<window width="1920" height="963" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="1" orientation="1" />
+	</panes>
+	<views>
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 51 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 , 538 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="false" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="false" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 | 1009 || 6" visible="false" inframe="false" stylebar="false" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="3" size="1920" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="true" location="3" size="380" tab="ALGEBRA" window="100,100,600,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="300" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="300" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="128" visible="false" inframe="false" stylebar="false" location="1" size="480" window="50,50,500,500" />
+		<view id="4097" visible="false" inframe="false" stylebar="true" location="1" size="413" window="100,100,700,550" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="false" stylebar="true" location="1" size="900" window="50,50,500,500" />
+	</views>
+	<toolbar show="true" items="0 | 1" position="1" help="false" />
+	<input show="true" cmd="true" top="false" />
+	<dockBar show="false" east="false" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="0"/>
+	<font  size="16"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="1920" height="867"/>
+	<coordSystem xZero="-103.32321999999986" yZero="217.1687399999999" scale="54.99999999999998" yscale="54.99999999999996"/>
+	<evSettings axes="false" grid="true" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="37" g="37" b="37"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="3" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<tableview min="0" max="0" step="0"/>
+<scripting blocked="false" disabled="false"/>
+<construction title="" author="" date="">
+<element type="point" label="L">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="13" y="-3" z="1"/>
+</element>
+<element type="point" label="K">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.838181818181823" y="0.5463636363636357" z="1"/>
+</element>
+<element type="point" label="J">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="16.398181818181822" y="-5.693636363636367" z="1"/>
+</element>
+<element type="point" label="A">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.07818" y="-0.55364" z="1"/>
+</element>
+<element type="point" label="B">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.958181818181814" y="0.5263636363636357" z="1"/>
+</element>
+<element type="point" label="C">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.258181818181813" y="-2.0936363636363655" z="1"/>
+</element>
+<element type="point" label="D">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="8.318181818181813" y="-2.3736363636363653" z="1"/>
+</element>
+<element type="point" label="E">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.778181818181812" y="0.006363636363635461" z="1"/>
+</element>
+<element type="point" label="F">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.638181818181812" y="-3.933636363636366" z="1"/>
+</element>
+<element type="point" label="G">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="9.518181818181812" y="-1.513636363636365" z="1"/>
+</element>
+<element type="point" label="H">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.67818181818181" y="-1.3736363636363649" z="1"/>
+</element>
+<element type="point" label="I">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.378181818181812" y="-4.053636363636366" z="1"/>
+</element>
+<element type="numeric" label="delay">
+	<value val="400"/>
+	<slider min="25" max="400" absoluteScreenLocation="true" width="200" x="38" y="110" fixed="false" horizontal="true" showAlgebra="false"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="0.10000000149011612"/>
+	<layer val="0"/>
+	<labelOffset x="-30" y="-1"/>
+	<labelMode val="1"/>
+	<animation step="25" speed="1" type="0" playing="false"/>
+</element>
+<element type="button" label="bt1">
+	<show object="true" label="true"/>
+	<objColor r="0" g="0" b="0" alpha="1"/>
+	<bgColor r="255" g="255" b="255" alpha="255"/>
+	<layer val="0"/>
+	<labelOffset x="14" y="10"/>
+	<labelMode val="3"/>
+	<animation step="0.1" speed="1" type="0" playing="false"/>
+	<auxiliary val="true"/>
+	<javascript val="getConvexHull(ggbApplet.getValue(&quot;delay&quot;))"/>
+	<caption val="Get Convex Hull"/>
+	<font serif="false" sizeM="2" size="16" style="0"/>
+	<dimensions width="205" height="55" />
+</element>
+<element type="point" label="M">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="17.369513090909095" y="-3.1969320000000034" z="1"/>
+</element>
+<element type="point" label="N">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.29678581818182" y="-2.215113818181821" z="1"/>
+</element>
+<element type="point" label="O">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="20.224058545454547" y="1.5121589090909089" z="1"/>
+</element>
+<element type="point" label="P">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="14.151331272727274" y="2.457613454545455" z="1"/>
+</element>
+<element type="point" label="Q">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="19.51496763636364" y="-5.506022909090913" z="1"/>
+</element>
+<element type="point" label="R">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="12.933149454545458" y="-6.378750181818187" z="1"/>
+</element>
+<element type="point" label="S">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="10" y="-5" z="1"/>
+</element>
+<element type="point" label="T">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="5.969513090909091" y="-2.796932000000003" z="1"/>
+</element>
+<element type="point" label="U">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="6.933149454545455" y="-5.378750181818186" z="1"/>
+</element>
+<element type="point" label="V">
+	<show object="true" label="true"/>
+	<objColor r="77" g="77" b="255" alpha="0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<animation step="0.1" speed="1" type="1" playing="false"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+	<coords x="11.333149454545456" y="2.9848861818181827" z="1"/>
+</element>
+</construction>
+</geogebra>
