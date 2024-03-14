@@ -18,7 +18,7 @@ function diophantine(minSolutions = 1000) {
     }
 
     let primes = getPrimes(factors.length);
-    let bestResult = { num: primes.reduce((a, b) => a * b, 1) };
+    let bestResult = { num: Infinity, factors: Infinity };
 
     diophantineAux(primes, minSolutions, bestResult, [1], 2);
 
@@ -30,17 +30,25 @@ function diophantineAux(primes, minSolutions, bestResult, factors, num) {
 
     let solutions = countSolutions(factors);
 
-    if (solutions > minSolutions) bestResult.num = num;
+    if (solutions > minSolutions) {
+        bestResult.num = num;
+        bestResult.factors = factors.length;
+        return;
+    }
 
-    if (factors.length < primes.length) {
+    if (factors.length < primes.length && bestResult.factors > factors.length + 1) {
+        let memo = bestResult.num;
+
         diophantineAux(primes, minSolutions, bestResult, [...factors, 1], num * primes[factors.length]);
+
+        if (memo === bestResult.num) return;
     }
 
     for (let i = 0; i < factors.length; i++) {
         let newFactors = [...factors];
         newFactors[i]++;
 
-        if (i > 0 && newFactors[i] > newFactors[i - 1]) break;
+        if (i > 0 && newFactors[i] > newFactors[i - 1]) continue;
 
         diophantineAux(primes, minSolutions, bestResult, newFactors, num * primes[i]);
     }
@@ -82,5 +90,6 @@ function getNextPrime(primes) {
 
     primes.push(value);
 }
+
 
 module.exports = { diophantine };
